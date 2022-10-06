@@ -5,5 +5,3 @@ application = Flask(__name__)
 def hello_world():
     return 'Sup'
 
-
-application.run(host='0.0.0.0', debug=True, port=5000)
